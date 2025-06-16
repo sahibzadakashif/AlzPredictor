@@ -5,8 +5,8 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-with open('rf_model.pkl', 'rb') as file:
-    model = pickle.load(file)
+import joblib
+model = joblib.load("rf_model.joblib")
 
 # Load feature names if you saved them
 with open('features.pkl', 'rb') as file:
