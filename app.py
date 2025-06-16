@@ -4,9 +4,9 @@ from rdkit.Chem import Descriptors
 import pandas as pd
 import pickle
 
-# Load the trained model
-import joblib
-model = joblib.load("rf_model.joblib")
+import pickle
+with open("rf_model.pkl", "rb") as file:
+    model = pickle.load(file)
 
 # Load feature names if you saved them
 with open('features.pkl', 'rb') as file:
