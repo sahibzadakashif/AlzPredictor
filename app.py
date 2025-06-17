@@ -6,10 +6,9 @@ from rdkit.Chem import Descriptors
 import numpy as np
 import gzip
 import pickle
-# Load the gzip-compressed pickle file
-with gzip.open("model_compressed.pkl.gz", "rb") as f:
+# Fix: Load compressed model correctly
+with gzip.open("/mount/src/alzpredictor/your_model_compressed.pkl.gz", "rb") as f:
     model = pickle.load(f)
-
 descriptor_columns = [
     'apol', 'arorings', 'ast_fraglike', 'ast_fraglike_ext', 'ast_violation',
     'ast_violation_ext', 'a_acc', 'a_acid', 'a_aro', 'a_base', 'a_count',
