@@ -4,9 +4,11 @@ import joblib
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 import numpy as np
-
-# Load your trained RF model
-model = joblib.load("rf_model.pkl")
+import gzip
+import pickle
+# Load the gzip-compressed pickle file
+with gzip.open("model_compressed.pkl.gz", "rb") as f:
+    model = pickle.load(f)
 
 descriptor_columns = [
     'apol', 'arorings', 'ast_fraglike', 'ast_fraglike_ext', 'ast_violation',
