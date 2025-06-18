@@ -59,7 +59,7 @@ def main():
                 st.error(f"❌ Error: {e}")
 
     st.markdown("---")
-    st.markdown("## 🧑‍🔬 AlzPredictor Contributors:")
+    st.markdown("## AlzPredictor Contributors:")
 
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     
