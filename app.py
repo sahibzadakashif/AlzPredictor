@@ -6,7 +6,7 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 # Streamlit Page Setup
-st.set_page_config(page_title="TPSA Predictor", layout="wide")
+st.set_page_config(page_title="AlzPredictor", layout="wide")
 
 # Function to compute TPSA
 def calculate_tpsa(smiles_list):
@@ -28,7 +28,7 @@ def get_download_link(df):
 
 # Main App
 def main():
-    st.title("🔬 TPSA Predictor")
+    st.title("🔬 AlzPredictor")
     st.markdown("Calculate the **Topological Polar Surface Area (TPSA)** from Canonical SMILES using RDKit.")
 
     input_method = st.radio("Choose Input Method", ["Paste SMILES", "Upload File"])
@@ -59,7 +59,7 @@ def main():
                 st.error(f"❌ Error: {e}")
 
     st.markdown("---")
-    st.markdown("## 🧑‍🔬 GynoPotentia Contributors:")
+    st.markdown("## 🧑‍🔬 AlzPredictor Contributors:")
 
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     
