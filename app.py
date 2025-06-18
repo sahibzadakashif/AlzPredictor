@@ -80,31 +80,27 @@ def main():
     with col2:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Samiya Iqbal</h3>
-                MBBS, FCPS<br>
-                King Edward Medical University, Lahore
+                <h3 style='color:#800000;'>Prof. Dr. Dong Qing Wei</h3>
+                <b>Shanghai Jiatong University, China
             </div>
         """, unsafe_allow_html=True)
 
     with col3:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Shumaila Shahid</h3>
-                MS Biochemistry<br>
-                School of Biochemistry and Biotechnology<br>
-                University of the Punjab, Lahore<br>
-                <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
+                <h3 style='color:#800000;'>Dr. Munawar Abbas</h3>
+                PhD Scholar<br>
+                Henan University of Technology,Zhengzhou China<br>
+                <b>Email:</b> Email: abbas@stu.haut.edu.cn
             </div>
         """, unsafe_allow_html=True)
 
     with col4:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Muteeba Azhar</h3>
-                MS Researcher<br>
-                School of Biochemistry and Biotechnology<br>
-                University of the Punjab, Lahore<br>
-                <b>Email:</b> muteeba.res.sbb@pu.edu.pk
+                <h3 style='color:#800000;'>Arif Ali</h3>
+                Phd Researcher<br>
+                <b>Shanghai Jiatong University, China
             </div>
         """, unsafe_allow_html=True)
 
