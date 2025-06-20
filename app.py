@@ -29,7 +29,7 @@ def get_download_link(df):
 # Main App
 def main():
     st.title("🔬 AlzPredictor")
-    st.markdown("Calculate the **Topological Polar Surface Area (TPSA)** from Canonical SMILES using RDKit.")
+    st.markdown("Calculate the **Topological Polar Surface Area (TPSA)** from Canonical SMILES of Drugs targeting beta-Amyloid protein in Alzheimer's Disease.")
 
     input_method = st.radio("Choose Input Method", ["Paste SMILES", "Upload File"])
 
@@ -80,8 +80,9 @@ def main():
     with col2:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Prof. Dr. Dong Qing Wei</h3>
-                <b>Shanghai Jiatong University, China
+                <h3 style='color:#800000;'>Dr. Dong Qing Wei</h3>
+                 Assistant Professor<br>
+                 Shanghai Jiao Tong University,China
             </div>
         """, unsafe_allow_html=True)
 
@@ -89,9 +90,8 @@ def main():
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
                 <h3 style='color:#800000;'>Dr. Munawar Abbas</h3>
-                PhD Scholar<br>
-                Henan University of Technology,Zhengzhou China<br>
-                <b>Email:</b> Email: abbas@stu.haut.edu.cn
+                PhD Biological Sciences<br>
+                Henan University of Technology,Zhengzhou China
             </div>
         """, unsafe_allow_html=True)
 
