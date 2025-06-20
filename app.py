@@ -81,7 +81,7 @@ def main():
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
                 <h3 style='color:#800000;'>Dr. Dong Qing Wei</h3>
-                 Assistant Professor<br>
+                 Professor<br>
                  Shanghai Jiao Tong University,China
             </div>
         """, unsafe_allow_html=True)
