@@ -29,7 +29,7 @@ def get_download_link(df):
 # Main App
 def main():
     st.title("🔬 AlzPredictor")
-    st.markdown("Calculate the **Topological Polar Surface Area (TPSA)** from Canonical SMILES of Drugs targeting beta-Amyloid protein in Alzheimer's Disease.")
+    st.markdown("Calculate the **Topological Polar Surface Area (TPSA)** from Canonical SMILES of Drugs targeting Beta-Amyloid protein in Alzheimer's Disease.")
 
     input_method = st.radio("Choose Input Method", ["Paste SMILES", "Upload File"])
 
