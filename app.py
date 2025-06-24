@@ -80,7 +80,7 @@ def main():
     with col2:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#006a4e;'>Dr. Andleeb Batool</h3>
+                <h3 style='color:#800000;'>Dr. Andleeb Batool</h3>
                 Assistant Professor<br>
                 Department of Zoology<br>
                 Government College University, Lahore<br>
@@ -91,7 +91,7 @@ def main():
     with col3:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#006a4e;'>Shumaila Shahid</h3>
+                <h3 style='color:#800000;'>Shumaila Shahid</h3>
                 MS Biochemistry<br>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
