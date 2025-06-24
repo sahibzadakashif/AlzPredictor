@@ -61,7 +61,7 @@ def main():
     st.markdown("---")
     st.markdown("## AlzPredictor Contributors:")
 
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+    col1, col2, col3 = st.columns([1, 1, 1])
     
     with col1:
         st.markdown("""
@@ -80,29 +80,26 @@ def main():
     with col2:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Dong Qing Wei</h3>
-                 Professor<br>
-                 Shanghai Jiao Tong University,China
+                <h3 style='color:#006a4e;'>Dr. Andleeb Batool</h3>
+                Assistant Professor<br>
+                Department of Zoology<br>
+                Government College University, Lahore<br>
+                <b>Email:</b> andleeb.batool@gcu.edu.pk
             </div>
         """, unsafe_allow_html=True)
 
     with col3:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Munawar Abbas</h3>
-                PhD Biological Sciences<br>
-                Henan University of Technology,Zhengzhou China
+                <h3 style='color:#006a4e;'>Shumaila Shahid</h3>
+                MS Biochemistry<br>
+                School of Biochemistry and Biotechnology<br>
+                University of the Punjab, Lahore<br>
+                <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
             </div>
         """, unsafe_allow_html=True)
 
-    with col4:
-        st.markdown("""
-            <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Arif Ali</h3>
-                Phd Researcher<br>
-                <b>Shanghai Jiatong University, China
-            </div>
-        """, unsafe_allow_html=True)
+    
 
 if __name__ == "__main__":
     main()
